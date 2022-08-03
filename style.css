@@ -83,13 +83,33 @@ button{
     margin-top: 20px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
     .container{
         /* height: 60%; */
         width: 90%;
         flex-direction: column;
-        flex-wrap: wrap;
-        /* height: 100vh; */
+        height: 95vh;
         /* overflow: hidden; */
     }
+    img{
+        content: url("images/image-product-mobile.jpg");
+    }
+    .txt{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .top-txt{
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 26pt;
+    }
+    button{
+        width: 100%;
+    }
+        
 }
